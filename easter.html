@@ -21,8 +21,9 @@
         // Easter egg: Konami code reveals rainbow background
         let keys = [];
         document.addEventListener('keydown', (e) => {
-            keys.push(e.key);
-            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
+            keys.push(e.key.toUpperCase());
+            // if someone type "KANGAROO" reveal rainbow background
+            if (keys.join('').includes('KANGAROO')) {
                 document.body.style.background = 'linear-gradient(45deg, red,orange,yellow,green,blue,indigo,violet)';
             }
         });
