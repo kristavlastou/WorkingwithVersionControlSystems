@@ -10,12 +10,12 @@
     <p>Find the hidden Easter eggs on this page!</p>
     
     <div class="egg red" onclick="alert('You found a chocolate egg! 🍫')"></div>
-    <div class="egg green" onclick="document.getElementById('secretBunny').style.display='block'"></div>
+    <div class="egg dark-green" onclick="document.getElementById('secretBunny').style.display='block'"></div>
     <div class="egg purple" onclick="this.style.background='rainbow'"></div>
     <div class="egg green" onclick="alert('You found a green egg! 🍫')"></div>
     <div class="egg blue" onclick="alert('You found a blue egg! 🍫')"></div>
     <div class="egg yellow" onclick="alert('You found a yellow egg! 🍫')"></div>
-    <div class="egg purple" onclick="alert('You found a purple egg! 🍫')"></div>
+    <div class="egg dark-green" onclick="alert('You found a purple egg! 🍫')"></div>
     <div class="egg orange" onclick="alert('You found an orange egg! 🍫')"></div>
     
 
@@ -31,7 +31,7 @@
             keys.push(e.key.toUpperCase());
             // if someone type "KANGAROO" reveal rainbow background
             if (keys.join('').includes('KANGAROO')) {
-                document.body.style.background = 'linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)';
+                document.body.style.background = 'linear-gradient(to right,blue,green)';
 
             }
         });

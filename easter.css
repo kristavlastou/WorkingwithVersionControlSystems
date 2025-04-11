@@ -6,7 +6,7 @@ body {
 }
 .egg {
     display: inline-block;
-    width: 100px;
+    width: 120px;
     height: 130px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
@@ -30,7 +30,7 @@ body {
 .hidden-basket:hover {
     color: #ff6b6b;
 }
-/* Κλασικές αυγών με χρώματα */
+
 .egg.red {
     background-color: #ff0000;
 }
@@ -53,4 +53,8 @@ body {
 
 .egg.orange {
     background-color: #ff8000;
+}
+
+.egg.dark-green {
+    background-color: #0b530b;  
 }
