@@ -2,12 +2,12 @@ body {
     background-color: #f8e8ff;
     font-family: Arial, sans-serif;
     text-align: center;
+    
 }
 .egg {
     display: inline-block;
     width: 100px;
     height: 130px;
-    background: linear-gradient(45deg, #8B0000, #ff4f4f);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
     cursor: pointer;
@@ -29,4 +29,28 @@ body {
 }
 .hidden-basket:hover {
     color: #ff6b6b;
+}
+/* Κλασικές αυγών με χρώματα */
+.egg.red {
+    background-color: #ff0000;
+}
+
+.egg.green {
+    background-color: #00ff00;
+}
+
+.egg.blue {
+    background-color: #0000ff;
+}
+
+.egg.yellow {
+    background-color: #ffff00;
+}
+
+.egg.purple {
+    background-color: #ff00ff;
+}
+
+.egg.orange {
+    background-color: #ff8000;
 }
